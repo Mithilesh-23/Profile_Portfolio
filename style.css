@@ -3,31 +3,32 @@
       color: #fff;
       font-family: 'Segoe UI', sans-serif;
       overflow-x: hidden;
-    }
+  }
 
-      /*  For the nav bar */
-    .navbar {
+  /*  For the nav bar */
+  .navbar {
       background-color: #090d16;
-    }
+  }
 
-    .navbar-brand {
-      font-weight:bolder;
+  .navbar-brand {
+      font-weight: bolder;
       background: linear-gradient(to right, #00f0ff, #6a5acd);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-    }
+  }
 
-    .nav-link {
+  .nav-link {
       color: #ccc;
       position: relative;
       transition: color 0.3s;
-    }
-    .nav-link:hover,
-    .nav-link.active {
-      color: #00f0ff;
-    }
+  }
 
-    .nav-link.active::after {
+  .nav-link:hover,
+  .nav-link.active {
+      color: #00f0ff;
+  }
+
+  .nav-link.active::after {
       content: '';
       position: absolute;
       left: 0;
@@ -36,4 +37,115 @@
       height: 2px;
       background: linear-gradient(to right, #00f0ff, #6a5acd);
       border-radius: 2px;
-    }
+  }
+
+  /* For the hero section */
+  .hero {
+      text-align: center;
+      padding: 100px 20px;
+      position: relative;
+      z-index: 1;
+  }
+
+  .initials-circle {
+      width: 100px;
+      height: 100px;
+      border: 3px solid #00eaff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 30px;
+      font-size: 28px;
+      font-weight: bold;
+      color: #00eaff;
+  }
+
+  .hero h1 {
+      font-size: 48px;
+      font-weight: 700;
+  }
+
+  .hero h1 span {
+      background: linear-gradient(90deg, #00eaff, #8a2be2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
+  .hero p {
+      color: #a9b3c1;
+      font-size: 18px;
+      margin-top: 15px;
+  }
+
+  .hero-buttons {
+      margin-top: 40px;
+  }
+
+  .btn-custom {
+      padding: 10px 25px;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 16px;
+      margin: 10px;
+  }
+
+  .btn-gradient {
+      background: linear-gradient(to right, #00eaff, #3467ff);
+      color: white;
+      border: none;
+  }
+
+  .btn-gradient:hover {
+      background: linear-gradient(to right, #00c2ff, #5f72ff);
+  }
+
+  .btn-disabled {
+      background-color: #e0e0e0;
+      color: #777;
+      pointer-events: none;
+      cursor: not-allowed;
+  }
+
+  .bg-dot {
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.3;
+      animation: float 6s infinite ease-in-out;
+  }
+
+  .dot1 {
+      width: 15px;
+      height: 15px;
+      background: #00eaff;
+      top: 20%;
+      left: 5%;
+  }
+
+  .dot2 {
+      width: 20px;
+      height: 20px;
+      background: #2c6fff;
+      top: 35%;
+      right: 8%;
+  }
+
+  .dot3 {
+      width: 12px;
+      height: 12px;
+      background: #a54eff;
+      bottom: 20%;
+      left: 10%;
+  }
+
+  @keyframes float {
+
+      0%,
+      100% {
+          transform: translateY(0);
+      }
+
+      50% {
+          transform: translateY(-15px);
+      }
+  }
