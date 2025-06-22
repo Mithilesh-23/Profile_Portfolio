@@ -13,7 +13,7 @@
   .navbar-brand {
       font-weight: bolder;
       background: linear-gradient(to right, #00f0ff, #6a5acd);
-      -webkit-background-clip: text;
+      background-clip: text;
       -webkit-text-fill-color: transparent;
   }
 
@@ -68,7 +68,7 @@
 
   .hero h1 span {
       background: linear-gradient(90deg, #00eaff, #8a2be2);
-      -webkit-background-clip: text;
+      background-clip: text;
       -webkit-text-fill-color: transparent;
   }
 
@@ -149,3 +149,68 @@
           transform: translateY(-15px);
       }
   }
+
+  /* About section  */
+
+  .about-title{
+    text-align: center;
+    font-size:36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    background: linear-gradient(90deg, #00eaff, #6a5acd);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+
+  .highlight{
+    color: #00eaff;
+    font-weight: bold;
+  }
+
+  .badge-box{
+    border: 1px solid #2c2f4a;
+    background-color: #0e1226;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #ccc;
+    font-size: 15px;
+    transition: all 0.3s ease;
+
+  }
+  .badge-box:hover{
+    box-shadow: 10px #db610a;
+    border: 1px solid #eceac3;
+  }
+
+  .profile-box{
+    background: radial-gradient(circle, #1d2b4f, #0f1a2f);
+    border-radius: 20px;
+    padding: 31px;
+    text-align: center;
+    color: #aaa;
+  }
+
+  .circle-avatar{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(90deg, #00eaff, #6a5acd);
+    color: white;
+    font-size: 26px;
+    font-weight:bolder;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+
+  }
+  .comming-soon{
+    font-size: 15px;
+    color: #999;
+  }
+
