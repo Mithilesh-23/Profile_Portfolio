@@ -214,3 +214,75 @@
     color: #999;
   }
 
+  /* skill section */
+     /* skill */
+      .skills-section {
+      padding: 80px 20px;
+    }
+
+    .skills-title {
+      text-align: center;
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      background: linear-gradient(90deg, #00eaff, #6a5acd);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .skills-subtitle {
+      text-align: center;
+      color: #a9b3c1;
+      margin-bottom: 50px;
+    }
+
+    .card-skill {
+      background-color: #111827;
+      border-radius: 15px;
+      padding: 30px;
+      height: 100%;
+      transition: all 0.3s ease;
+
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0);
+  border: 1px solid transparent;
+    }
+
+    .card-skill:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  border: 1px solid #00bfff;
+}
+
+
+    .card-skill h5 {
+      font-weight: bold;
+    }
+
+    .icon-box {
+      width: 45px;
+      height: 45px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      color: white;
+      font-size: 20px;
+    }
+
+    .tag {
+      display: inline-block;
+      background-color: #2b2f3b;
+      color: #ccc;
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-size: 14px;
+      margin: 5px 5px 0 0;
+    }
+
+    .gradient-blue { background: linear-gradient(135deg, #00eaff, #5b6eff); }
+    .gradient-purple { background: linear-gradient(135deg, #9f6eff, #6a1b9a); }
+    .gradient-pink { background: linear-gradient(135deg, #ff5b99, #ff3c5f); }
+    .gradient-green { background: linear-gradient(135deg, #00ffcc, #00c2ff); }
+    .gradient-red { background: linear-gradient(135deg, #ff6b6b, #ff1e56); }
+
