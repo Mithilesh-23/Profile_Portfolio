@@ -2,308 +2,382 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mithilesh Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mithilesh Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark px-4 fixed-top">
-        <a class="navbar-brand" href="#">Mithilesh</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+  <nav class="navbar navbar-expand-lg navbar-dark px-4 fixed-top">
+    <a class="navbar-brand" href="#">Mithilesh</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav ">
-                <li class="nav-item">
-                    <a class="nav-link" href="#hero">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" href="#hero">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#exploring">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="bg-dot dot1"></div>
+  <div class="bg-dot dot2"></div>
+  <div class="bg-dot dot3"></div>
+
+  <section class="hero" id="hero">
+    <div class="initials-circle" data-aos="fade-down">MD</div>
+    <h1 data-aos="fade-up" data-aos-delay="200">Hi, I'm <span>Mithilesh</span></h1>
+    <h5 class="mt-3" data-aos="fade-up" data-aos-delay="400">Django Developer | Data Science Enthusiast</h5>
+    <p data-aos="fade-up" data-aos-delay="600">Building smart solutions at the intersection of web and data</p>
+    <div class="hero-buttons" data-aos="fade-up" data-aos-delay="800">
+      <button class="btn btn-gradient btn-custom">Explore My Work ↓</button>
+      <button class="btn btn-custom btn-disabled"><i class="bi bi-download"></i> Download Resume</button>
+    </div>
+  </section>
+
+
+  <!-- About Section -->
+  <section class="about-section container" id="about">
+    <h2 class="about-title" data-aos="fade-right">About Me</h2>
+    <div class="row align-item-center mt-5">
+      <!-- content appers on left side -->
+      <div class="col-md-7">
+        <p>I'm currently pursuing a <span class="highlight">B.E. in Computer Science and Engineering </span> at
+          Sipna COET, Amravati, graduating in 2027. With a strong foundation in django and growing interest in
+          data science and ML, I'm passionate about leveraging technology to create meaningful solutions.</p>
+        <p class="mt-3"> I enjoy exploring machine learning models and real-time analytics, always looking for
+          ways to bridge the gap between web development and data-driven insights.</p>
+        <div class="mt-4">
+          <div class="d-flex flex-wrap">
+            <div class="badge-box"><i class="bi bi-mortarboard"></i> Computer Science Student</div>
+            <div class="badge-box"><i class="bi bi-code-slash"></i> Django Developer</div>
+            <div class="badge-box"><i class="bi bi-search"></i> Data Science Enthusiast</div>
+            <div class="badge-box"><i class="bi bi-laptop"></i> ML Enthusiast</div>
+            <div class="badge-box"><i class="bi bi-people"></i> Team Player</div>
+          </div>
         </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <div class="bg-dot dot1"></div>
-    <div class="bg-dot dot2"></div>
-    <div class="bg-dot dot3"></div>
-
-    <section class="hero" id="hero">
-        <div class="initials-circle" data-aos="fade-down">MD</div>
-        <h1 data-aos="fade-up" data-aos-delay="200">Hi, I'm <span>Mithilesh</span></h1>
-        <h5 class="mt-3" data-aos="fade-up" data-aos-delay="400">Django Developer | Data Science Enthusiast</h5>
-        <p data-aos="fade-up" data-aos-delay="600">Building smart solutions at the intersection of web and data</p>
-        <div class="hero-buttons" data-aos="fade-up" data-aos-delay="800">
-            <button class="btn btn-gradient btn-custom">Explore My Work ↓</button>
-            <button class="btn btn-custom btn-disabled"><i class="bi bi-download"></i> Download Resume</button>
-        </div>
-    </section>
-
-
-    <!-- About Section -->
-    <section class="about-section container" id="about">
-        <h2 class="about-title" data-aos="fade-right">About Me</h2>
-        <div class="row align-item-center mt-5">
-            <!-- content appers on left side -->
-            <div class="col-md-7">
-                <p>I'm currently pursuing a <span class="highlight">B.E. in Computer Science and Engineering </span> at
-                    Sipna COET, Amravati, graduating in 2027. With a strong foundation in django and growing interest in
-                    data science and ML, I'm passionate about leveraging technology to create meaningful solutions.</p>
-                <p class="mt-3"> I enjoy exploring machine learning models and real-time analytics, always looking for
-                    ways to bridge the gap between web development and data-driven insights.</p>
-                <div class="mt-4">
-                    <div class="d-flex flex-wrap">
-                        <div class="badge-box"><i class="bi bi-mortarboard"></i> Computer Science Student</div>
-                        <div class="badge-box"><i class="bi bi-code-slash"></i> Django Developer</div>
-                        <div class="badge-box"><i class="bi bi-search"></i> Data Science Enthusiast</div>
-                        <div class="badge-box"><i class="bi bi-laptop"></i> ML Enthusiast</div>
-                        <div class="badge-box"><i class="bi bi-people"></i> Team Player</div>
-                    </div>
-                </div>
-            </div>
-            <!--  content appers on right side -->
-              <div class="col-md-5 mt-4 mt-md-0" data-aos="fade-left">
-                <div class="profile-box">
-                    <div class="circle-avatar">MD</div>
-                    <h6>Image</h6>
-                    <p class="comming-soon">Welcome to Mythya_World</p>
-                </div>
-              </div>
-        </div> 
-    </section>
-     
-    <!-- Skills  -->
-      <section class="skills-section container">
-  <h2 class="skills-title" data-aos="fade-up">Skills & Expertise</h2>
-  <p class="skills-subtitle" data-aos="fade-up" data-aos-delay="200">
-    A comprehensive overview of my technical skills and expertise areas
-  </p>
-
-  <div class="row g-4">
-    <!-- Programming Languages -->
-    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-      <div class="card-skill">
-        <div class="icon-box gradient-blue"><i class="bi bi-code-slash"></i></div>
-        <h5>Programming Languages</h5>
-        <div class="mt-3">
-          <span class="tag">Python</span>
-          <span class="tag">C++</span>
-          <span class="tag">Java</span>
+      </div>
+      <!--  content appers on right side -->
+      <div class="col-md-5 mt-4 mt-md-0" data-aos="fade-left">
+        <div class="profile-box">
+          <div class="circle-avatar">MD</div>
+          <h6>Hello </h6>
+          <p class="comming-soon">Welcome to Mythya_World</p>
         </div>
       </div>
     </div>
+  </section>
 
-    <!-- Frameworks & Tools -->
-    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
-      <div class="card-skill">
-        <div class="icon-box gradient-purple"><i class="bi bi-tools"></i></div>
-        <h5>Frameworks & Tools</h5>
-        <div class="mt-3">
-          <span class="tag">Django</span>
-          <span class="tag">REST API</span>
-          <span class="tag">Git</span>
+  <!-- Skills  -->
+  <section class="skills-section container" id="skills">
+    <h2 class="skills-title" data-aos="fade-up">Skills & Expertise</h2>
+    <p class="skills-subtitle" data-aos="fade-up" data-aos-delay="200">
+      A comprehensive overview of my technical skills and expertise areas
+    </p>
+
+    <div class="row g-4">
+      <!-- Programming Languages -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="card-skill">
+          <div class="icon-box gradient-blue"><i class="bi bi-code-slash"></i></div>
+          <h5>Programming Languages</h5>
+          <div class="mt-3">
+            <span class="tag">Python</span>
+            <span class="tag">C++</span>
+            <span class="tag">Java</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Frameworks & Tools -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+        <div class="card-skill">
+          <div class="icon-box gradient-purple"><i class="bi bi-tools"></i></div>
+          <h5>Frameworks & Tools</h5>
+          <div class="mt-3">
+            <span class="tag">Django</span>
+            <span class="tag">REST API</span>
+            <span class="tag">Git</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Databases -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+        <div class="card-skill">
+          <div class="icon-box gradient-pink"><i class="bi bi-database-fill"></i></div>
+          <h5>Databases</h5>
+          <div class="mt-3">
+            <span class="tag">MySQL</span>
+            <span class="tag">MongoDB</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Libraries -->
+      <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="card-skill">
+          <div class="icon-box gradient-green"><i class="bi bi-code"></i></div>
+          <h5>Libraries</h5>
+          <div class="mt-3">
+            <span class="tag">NumPy</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Matplotlib</span>
+            <span class="tag">Scikit-learn</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="700">
+        <div class="card-skill">
+          <div class="icon-box gradient-red"><i class="bi bi-heart-fill"></i></div>
+          <h5>Soft Skills</h5>
+          <div class="mt-3">
+            <span class="tag">Communication</span>
+            <span class="tag">Teamwork</span>
+            <span class="tag">Collaboration</span>
+          </div>
         </div>
       </div>
     </div>
+  </section>
+  <!-- Featured Project Section -->
+  <section class="featured-section my-5" id="projects">
+    <h2 class="feature text-center text-primary mb-4" data-aos="fade-up"><strong>Featured Projects</strong></h2>
+    <p class="text-center text-light mb-5" data-aos="fade-up" data-aos-delay="100">
+      Innovative solutions combining web development, data science, and IoT
+    </p>
+    <div class="row g-4">
+     <!-- Smart learn -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="project-card">
+          <div class="icon-box bg-purple">📍</div>
+          <h4 class="text-white">smart Learn</h4>
+          <p class="text-light small">
+            A gamified educational platform focused on real-time analytics, interactive quizzes, and student performance
+            tracking. </p>
+          <p class="text-info fw-bold mb-1">Technologies:</p>
+          <div class="tech-tags">
+            <span>Django</span><span>Python</span><span>Gamification</span>
+          </div>
+          <p class="text-info fw-bold mb-1">Key Features:</p>
+          <ul class="feature-list">
+            <li>Real-time Analytics</li>
+            <li>Interactive Quizzes</li>
+            <li>Performance Tracking</li>
+          </ul>
+          <div class="btn-row">
+            <button class="btn btn-outline-light btn-sm">🔗 Code</button>
+            <button class="btn btn-outline-secondary btn-sm" disabled>🚫 Demo</button>
+          </div>
+        </div>
+      </div>
 
-    <!-- Databases -->
-    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
-      <div class="card-skill">
-        <div class="icon-box gradient-pink"><i class="bi bi-database-fill"></i></div>
-        <h5>Databases</h5>
-        <div class="mt-3">
-          <span class="tag">MySQL</span>
-          <span class="tag">MongoDB</span>
+      <!-- Travel Mitra -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="project-card">
+          <div class="icon-box bg-purple">📍</div>
+          <h4 class="text-white">Travel Mitra</h4>
+          <p class="text-light small">
+            A tourism enhancement platform featuring user matching, feedback systems, and service listings to boost user
+            experience.
+          </p>
+          <p class="text-info fw-bold mb-1">Technologies:</p>
+          <div class="tech-tags">
+            <span>Django</span><span>User Matching</span><span>Feedback System</span>
+          </div>
+          <p class="text-info fw-bold mb-1">Key Features:</p>
+          <ul class="feature-list">
+            <li>User Matching</li>
+            <li>Service Listings</li>
+            <li>Feedback System</li>
+          </ul>
+          <div class="btn-row">
+            <button class="btn btn-outline-light btn-sm">🔗 Code</button>
+            <button class="btn btn-outline-secondary btn-sm" disabled>🚫 Demo</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hands for Handicapped -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+        <div class="project-card">
+          <div class="icon-box bg-pink">✋</div>
+          <h4 class="text-white">Hands for Handicapped</h4>
+          <p class="text-light small">
+            A semi-IoT model powered by Arduino to assist physically disabled individuals with eating through an
+            automated assistive device.
+          </p>
+          <p class="text-info fw-bold mb-1">Technologies:</p>
+          <div class="tech-tags">
+            <span>Arduino</span><span>IoT</span><span>Assistive Technology</span>
+          </div>
+          <p class="text-info fw-bold mb-1">Key Features:</p>
+          <ul class="feature-list">
+            <li>Arduino Integration</li>
+            <li>Automated Assistance</li>
+            <li>Accessibility Focus</li>
+          </ul>
+          <div class="btn-row">
+            <button class="btn btn-outline-light btn-sm">🔗 Code</button>
+            <button class="btn btn-outline-secondary btn-sm" disabled>🚫 Demo</button>
+          </div>
         </div>
       </div>
     </div>
-
-    <!-- Libraries -->
-    <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="600">
-      <div class="card-skill">
-        <div class="icon-box gradient-green"><i class="bi bi-code"></i></div>
-        <h5>Libraries</h5>
-        <div class="mt-3">
-          <span class="tag">NumPy</span>
-          <span class="tag">Pandas</span>
-          <span class="tag">Matplotlib</span>
-          <span class="tag">Scikit-learn</span>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="700">
-      <div class="card-skill">
-        <div class="icon-box gradient-red"><i class="bi bi-heart-fill"></i></div>
-        <h5>Soft Skills</h5>
-        <div class="mt-3">
-          <span class="tag">Communication</span>
-          <span class="tag">Teamwork</span>
-          <span class="tag">Collaboration</span>
-        </div>
-      </div>
-    </div>
-    </div>
-    </section>
-<!-- Project Section -->
-<section class="container my-5" id="projects">
-  <h2 class="feature text-center text-primary mb-4" data-aos="fade-up"><strong>Featured Projects</strong></h2>
-  <p class="text-center text-light mb-5" data-aos="fade-up" data-aos-delay="100">
-    Innovative solutions combining web development, data science, and IoT
-  </p>
-
-  <div class="row g-4">
-    <!-- Project Card -->
-    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
-      <div class="project-card">
-        <div class="icon-box bg-blue">
-          🎮
-        </div>
-        <h4 class="text-white">Smart Learn</h4>
-        <p class="text-light small">
-          A gamified educational platform focused on real-time analytics, interactive quizzes, and student performance tracking.
-        </p>
-        <p class="text-info fw-bold mb-1">Technologies:</p>
-        <div class="tech-tags">
-          <span>Django</span><span>Python</span><span>Analytics</span><span>Gamification</span>
-        </div>
-        <p class="text-info fw-bold mb-1">Key Features:</p>
-        <ul class="feature-list">
-          <li>Real-time Analytics</li>
-          <li>Interactive Quizzes</li>
-          <li>Performance Tracking</li>
-        </ul>
-        <div class="btn-row">
-          <button class="btn btn-outline-light btn-sm">🔗 Code</button>
-          <button class="btn btn-outline-secondary btn-sm" disabled>🚫 Demo</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Repeat the above block for Travel Mitra & Hands for Handicapped -->
-
-    <!-- Travel Mitra -->
-    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
-      <div class="project-card">
-        <div class="icon-box bg-purple">📍</div>
-        <h4 class="text-white">Travel Mitra</h4>
-        <p class="text-light small">
-          A tourism enhancement platform featuring user matching, feedback systems, and service listings to boost user experience.
-        </p>
-        <p class="text-info fw-bold mb-1">Technologies:</p>
-        <div class="tech-tags">
-          <span>Django</span><span>User Matching</span><span>Feedback System</span>
-        </div>
-        <p class="text-info fw-bold mb-1">Key Features:</p>
-        <ul class="feature-list">
-          <li>User Matching</li>
-          <li>Service Listings</li>
-          <li>Feedback System</li>
-        </ul>
-        <div class="btn-row">
-          <button class="btn btn-outline-light btn-sm">🔗 Code</button>
-          <button class="btn btn-outline-secondary btn-sm" disabled>🚫 Demo</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Hands for Handicapped -->
-    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
-      <div class="project-card">
-        <div class="icon-box bg-pink">✋</div>
-        <h4 class="text-white">Hands for Handicapped</h4>
-        <p class="text-light small">
-          A semi-IoT model powered by Arduino to assist physically disabled individuals with eating through an automated assistive device.
-        </p>
-        <p class="text-info fw-bold mb-1">Technologies:</p>
-        <div class="tech-tags">
-          <span>Arduino</span><span>IoT</span><span>Assistive Technology</span>
-        </div>
-        <p class="text-info fw-bold mb-1">Key Features:</p>
-        <ul class="feature-list">
-          <li>Arduino Integration</li>
-          <li>Automated Assistance</li>
-          <li>Accessibility Focus</li>
-        </ul>
-        <div class="btn-row">
-          <button class="btn btn-outline-light btn-sm">🔗 Code</button>
-          <button class="btn btn-outline-secondary btn-sm" disabled>🚫 Demo</button>
-        </div>
-      </div>
-    </div>
-  </div>
-      <div class="text-center mt-5">
+    <div class="text-center mt-5">
       <a href="#" class="btn btn-info text-white"><i class="bi bi-github"></i> View All Projects on GitHub</a>
     </div>
-</section>
+  </section>
 
-<!-- exploring -->
- <section class="container my-5" id="exploring">
-  <h2 class="text-center text-info mb-3 fw-bold" data-aos="fade-up">What I'm Exploring</h2>
-  <p class="text-center text-light mb-5" data-aos="fade-up" data-aos-delay="100">
-    While not offering professional services yet, I actively build projects in web development and
-    data analytics. Open to collaborations and learning opportunities!
-  </p>
+  <!-- exploring -->
+  <section class="explore-section my-5" id="exploring">
+    <h2 class="text-center text-info mb-3 fw-bold" data-aos="fade-up">What I'm Exploring</h2>
+    <p class="text-center text-light mb-5" data-aos="fade-up" data-aos-delay="100">
+      While not offering professional services yet, I actively build projects in web development and
+      data analytics. Open to collaborations and learning opportunities!
+    </p>
 
-  <div class="row g-4 justify-content-center">
+    <div class="row g-4 justify-content-center">
 
-    <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-delay="150">
-      <div class="explore-card equal-height">
-        <div class="icon-circle bg-blue animate-pulse">💻</div>
-        <h5 class="text-white mt-3 mb-2">Web Development</h5>
-        <p class="text-light small">Building responsive web apps with Django and modern frameworks.</p>
+      <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-delay="150">
+        <div class="explore-card equal-height">
+          <div class="icon-circle bg-blue animate-pulse">💻</div>
+          <h5 class="text-white mt-3 mb-2">Web Development</h5>
+          <p class="text-light small">Building responsive web apps with Django and modern frameworks.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-delay="200">
+        <div class="explore-card equal-height">
+          <div class="icon-circle bg-purple animate-pulse">📊</div>
+          <h5 class="text-white mt-3 mb-2">Data Analytics</h5>
+          <p class="text-light small">Exploring data insights & real-time analytics implementation.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-delay="250">
+        <div class="explore-card equal-height">
+          <div class="icon-circle bg-pink animate-pulse">💡</div>
+          <h5 class="text-white mt-3 mb-2">Innovation Projects</h5>
+          <p class="text-light small">Creating solutions that combine tech with real-world impact.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-delay="300">
+        <div class="explore-card equal-height">
+          <div class="icon-circle bg-green animate-pulse">👥</div>
+          <h5 class="text-white mt-3 mb-2">Collaboration</h5>
+          <p class="text-light small">Open to learning & building in tech communities and hackathons.</p>
+        </div>
       </div>
     </div>
+  </section>
 
-    <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-delay="200">
-      <div class="explore-card equal-height">
-        <div class="icon-circle bg-purple animate-pulse">📊</div>
-        <h5 class="text-white mt-3 mb-2">Data Analytics</h5>
-        <p class="text-light small">Exploring data insights & real-time analytics implementation.</p>
+  <!-- connection section -->
+
+  <section class="contact-container" id="contact">
+    <h2 class="section-title" data-aos="fade-up"><strong>Let's Connect</strong></h2>
+    <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+      Ready to collaborate or just want to say hello? I'd love to hear from you!
+    </p>
+
+    <div class="row g-5">
+      <!-- Contact Info -->
+      <div class="col-md-6" data-aos="fade-right">
+        <h5>Get in Touch</h5>
+        <p>I'm always excited to discuss new opportunities, collaborate on projects, or simply connect with fellow
+          developers and tech enthusiasts.</p>
+
+        <div class="contact-box d-flex align-items-center">
+          <i class="bi bi-envelope-fill text-danger"></i>
+          <span>Email: mithileshdhandale324@gmail.com</span>
+        </div>
+
+        <div class="contact-box d-flex align-items-center">
+          <i class="bi bi-linkedin text-primary"></i>
+          <span>LinkedIn: <a href="https://linkedin.com/in/mithileshdhandale"
+              class="text-decoration-none text-info">/mithileshdhandale</a></span>
+        </div>
+
+        <div class="contact-box d-flex align-items-center">
+          <i class="bi bi-github text-light"></i>
+          <span>GitHub: <a href="https://github.com/mithilesh-23"
+              class="text-decoration-none text-light">/mithilesh-23</a></span>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-md-6" data-aos="fade-left">
+        <div class="contact-form-card">
+          <h5 class="mb-3">📩 Send a Message</h5>
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Your Name" required />
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="your.email@example.com" required />
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="4" placeholder="Tell me about your project or just say hello..."
+                required></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom w-100">🚀 Send Message</button>
+          </form>
+        </div>
       </div>
     </div>
+  </section>
 
-    <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-delay="250">
-      <div class="explore-card equal-height">
-        <div class="icon-circle bg-pink animate-pulse">💡</div>
-        <h5 class="text-white mt-3 mb-2">Innovation Projects</h5>
-        <p class="text-light small">Creating solutions that combine tech with real-world impact.</p>
-      </div>
+  <!-- Footer Section -->
+  <footer class="footer-section bg-dark text-light py-4 mt-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Footer Brand & Copyright -->
+        <div class="col-md-6 mb-3 mb-md-0 d-flex align-items-center">
+          <span class="footer-logo fw-bold fs-5 me-2">Mythya_World</span>
+          <span>&copy; 202555. All rights reserved.</span>
+        </div>
+        <!-- Footer Social Links -->
+        <div class="col-md-6 text-md-end">
+          <a href="https://github.com/mithilesh-23" class="text-light me-3 fs-5" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/mithileshdhandale" class="text-info me-3 fs-5" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="mailto:mithileshdhandale324@gmail.com" class="text-danger fs-5" aria-label="Email">
+            <i class="bi bi-envelope-fill"></i>
+          </a>
+        </div>
+      </div> 
     </div>
-    <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-delay="300">
-      <div class="explore-card equal-height">
-        <div class="icon-circle bg-green animate-pulse">👥</div>
-        <h5 class="text-white mt-3 mb-2">Collaboration</h5>
-        <p class="text-light small">Open to learning & building in tech communities and hackathons.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init();</script>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 
 </html>
